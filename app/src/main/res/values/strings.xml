@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="splash_screen_text">Powered By Amanullah Sarker</string>
+    <string name="first_slide_title">রক্ত দিন</string>
+    <string name="second_slide_title">জীবন বাঁচান</string>
+
+    <string name="first_description">
+        জীবন বাঁচাতে সহযোগীতা করতে চান,তাহলে মুমূর্ষ রোগীকে করুন রক্তদান
+    </string>
+    <string name="second_description">
+        এইজন্যই রক্তদান করবেন হয়তো একদিন আপনার নিজের প্রয়োজনে/বিপদে অন্য কেউ এগিয়ে আসবে
+    </string>
+    <string name="title_activity_address">AddressActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="over_weight">&lt;50 KG</string>
+    <string name="under_weight">&gt;50 KG</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

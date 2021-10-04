@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="#d7e7dc"
+    tools:context=".Signup.BloodGroupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Your Blood Group?"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/oneButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="A+"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/twoButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="B+"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/threeButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="AB+"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/fourButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="A-"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/fiveButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="B-"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/sixButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="AB-"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/sevenButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="O+"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/eightButtonId"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="O-"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Blood Group need to be accurate. If your don't Know about it, Please contact nearest clinic."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>
